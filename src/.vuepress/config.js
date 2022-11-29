@@ -1,6 +1,6 @@
 module.exports = {
   // 基础配置
-  base: '/web-redis/', // 部署站点的基础路径
+  base: '/web-gulp/', // 部署站点的基础路径
   description: 'redis相关知识点',
   locales: {
     // 默认标题
@@ -13,12 +13,12 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   port: 3009,
-  dest: 'web-redis', // 指定 vuepress build 的输出目录
+  dest: 'web-gulp', // 指定 vuepress build 的输出目录
   serviceWorker: true, // pwa
 
   // 主题配置
   themeConfig: {
-    repo: 'https://github.com/zhoubichuan/web-redis', // 源码地址
+    repo: 'https://github.com/zhoubichuan/web-gulp', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true, // 编辑链接
@@ -45,11 +45,7 @@ module.exports = {
         items: [
           {
             text: '1.组件精讲',
-            link: '/senior/use/1.recursionAndDynamics'
-          },
-          {
-            text: '2.TypeScript',
-            link: '/senior/typeScript/inde'
+            link: '/senior/use/1.index'
           },
         ]
       }
@@ -81,17 +77,7 @@ module.exports = {
         'i18n'
       ],
       '/senior/use/': [
-        '1.recursionAndDynamics',
-        '2.extend',
-        '3.componentCommunication',
-        '4.render',
-        '5.api',
-        '6.form',
-        '7.checkBox',
-        '8.active',
-        '9.alert',
-        '10.table',
-        '11.tree'
+        '1.index',
       ],
     },
     searchMaxSuggestoins: 10
