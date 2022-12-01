@@ -1,11 +1,11 @@
 module.exports = {
   // 基础配置
   base: '/web-gulp/', // 部署站点的基础路径
-  description: 'redis相关知识点',
+  description: 'gulp相关知识点',
   locales: {
     // 默认标题
     '/': {
-      title: 'Redis笔记',
+      title: 'gulp笔记',
       description: ''
     }
   },
@@ -31,12 +31,12 @@ module.exports = {
         text: '基础知识',
         items: [
           {
-            text: '1.redis实践指南',
+            text: '1.gulp基础',
             link: '/base/build/1.config'
           },
           {
-            text: '2.redis相关实践',
-            link: '/base/practice/1.redis',
+            text: '2.gulp相关实践',
+            link: '/base/practice/1.gulp',
           }
         ]
       },
@@ -44,7 +44,7 @@ module.exports = {
         text: '高级知识',
         items: [
           {
-            text: '1.组件精讲',
+            text: '1.gulp源码分析',
             link: '/senior/use/1.index'
           },
         ]
@@ -68,7 +68,7 @@ module.exports = {
         '15.api'
       ],
       '/base/practice/': [
-        '1.redis',
+        '1.gulp',
         '2.Jenkins',
         '3.gitlab',
         'vscode',
