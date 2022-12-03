@@ -34,21 +34,21 @@ module.exports = {
             text: '1.gulp基础',
             link: '/base/build/1.config'
           },
-          {
-            text: '2.gulp相关实践',
-            link: '/base/practice/1.gulp',
-          }
+          // {
+          //   text: '2.gulp相关实践',
+          //   link: '/base/practice/1.gulp',
+          // }
         ]
       },
-      {
-        text: '高级知识',
-        items: [
-          {
-            text: '1.gulp源码分析',
-            link: '/senior/use/1.index'
-          },
-        ]
-      }
+      // {
+      //   text: '高级知识',
+      //   items: [
+      //     {
+      //       text: '1.gulp源码分析',
+      //       link: '/senior/use/1.index'
+      //     },
+      //   ]
+      // }
     ],
     sidebar: {
       '/base/build/': [
